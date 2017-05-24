@@ -1,3 +1,19 @@
 {
-  "name": "Stopify"
+  "name": "stopify",
+  "description": "Turns the Spotify web player into a native OSX app, with the keybindings and without the ads.",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/npny/stopify.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/npny/stopify/issues"
+  },
+  "homepage": "https://github.com/npny/stopify#readme",
+  "dependencies": {
+    "electron": "^1.6.8"
+  }
 }
