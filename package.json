@@ -1,18 +1,18 @@
 {
-  "name": "stopify",
-  "description": "Turns the Spotify web player into a native OSX app, with the keybindings and without the ads.",
-  "version": "1.0.0",
+  "name": "Mx",
+  "description": "Mx is a combined interface for all your favorite audio/video sources.",
+  "version": "2.0.0",
   "main": "index.js",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/npny/stopify.git"
+    "url": "git+https://github.com/nobe4/mx.git"
   },
-  "author": "",
+  "author": "nobe4",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/npny/stopify/issues"
+    "url": "https://github.com/nobe4/mx/issues"
   },
-  "homepage": "https://github.com/npny/stopify#readme",
+  "homepage": "https://github.com/nobe4/mx#readme",
   "dependencies": {
     "electron": "^1.6.8"
   }
