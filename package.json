@@ -15,5 +15,8 @@
   "homepage": "https://github.com/nobe4/mx#readme",
   "dependencies": {
     "electron": "^1.6.8"
+  },
+  "devDependencies": {
+    "electron-packager": "^8.7.2"
   }
 }
