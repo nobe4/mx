@@ -18,6 +18,7 @@ module.exports = function(app, changeSite, window, goToSeach) {
 				{label: 'Youtube', accelerator: 'CmdOrCtrl+Y', click: () => changeSite('youtube')},
 				{label: 'SoundCloud', accelerator: 'CmdOrCtrl+D', click: () => changeSite('soundcloud')},
 				{label: 'BandCamp', accelerator: 'CmdOrCtrl+B', click: () => changeSite('bandcamp')},
+				{label: 'Fip', accelerator: 'CmdOrCtrl+P', click: () => changeSite('fip')},
 			]
 		},
 		// Edit utilites: copy, select and paste

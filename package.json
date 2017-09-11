@@ -1,7 +1,7 @@
 {
   "name": "Mx",
   "description": "Mx is a combined interface for all your favorite audio/video sources.",
-  "version": "2.0.0",
+  "version": "2.1.0",
   "main": "index.js",
   "repository": {
     "type": "git",

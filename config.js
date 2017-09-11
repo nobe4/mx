@@ -5,7 +5,7 @@ module.exports = {
 		width: 1280,
 		height: 800,
 		titleBarStyle: 'hidden-inset',
-		title: 'Stopify',
+		title: 'Mx',
 		backgroundColor: '#070707',
 		webPreferences: {plugins: true}
 	},
@@ -15,4 +15,5 @@ module.exports = {
 	soundcloud: require('./sources/soundcloud.js'),
 	spotify: require('./sources/spotify.js'),
 	youtube: require('./sources/youtube.js'),
+	fip: require('./sources/fip.js'),
 };
