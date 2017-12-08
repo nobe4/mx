@@ -14,7 +14,8 @@
   },
   "homepage": "https://github.com/nobe4/mx#readme",
   "dependencies": {
-    "electron": "^1.6.8"
+    "electron": "^1.6.8",
+    "electron-widevinecdm": "^5.0.2"
   },
   "devDependencies": {
     "electron-packager": "^8.7.2"
