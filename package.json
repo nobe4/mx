@@ -1,23 +1,26 @@
 {
-  "name": "Mx",
-  "description": "Mx is a combined interface for all your favorite audio/video sources.",
-  "version": "2.1.0",
-  "main": "index.js",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/nobe4/mx.git"
-  },
-  "author": "nobe4",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/nobe4/mx/issues"
-  },
-  "homepage": "https://github.com/nobe4/mx#readme",
-  "dependencies": {
-    "electron": "^1.6.8",
-    "electron-widevinecdm": "^5.0.2"
-  },
-  "devDependencies": {
-    "electron-packager": "^8.7.2"
-  }
+	"name": "Mx",
+	"description": "Mx is a combined interface for all your favorite audio/video sources.",
+	"version": "2.2.0",
+	"main": "index.js",
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/nobe4/mx.git"
+	},
+	"author": "nobe4",
+	"license": "MIT",
+	"bugs": {
+		"url": "https://github.com/nobe4/mx/issues"
+	},
+	"homepage": "https://github.com/nobe4/mx#readme",
+	"dependencies": {
+		"electron": "^1.6.8",
+		"electron-widevinecdm": "^5.0.2"
+	},
+	"devDependencies": {
+		"electron-packager": "^8.7.2"
+	},
+	"scripts": {
+		"build-darwin": "./node_modules/electron-packager/cli.js . Mx --platform=darwin --icon=Icon.icns"
+	}
 }
