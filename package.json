@@ -18,9 +18,12 @@
 		"electron-widevinecdm": "^5.0.2"
 	},
 	"devDependencies": {
-		"electron-packager": "^8.7.2"
+		"electron-packager": "^8.7.2",
+		"nsp": "^3.2.1",
+		"snyk": "^1.69.11"
 	},
 	"scripts": {
-		"build-darwin": "./node_modules/electron-packager/cli.js . Mx --platform=darwin --icon=Icon.icns"
+		"build-darwin": "./node_modules/electron-packager/cli.js . Mx --platform=darwin --icon=Icon.icns",
+		"sec-check": "./node_modules/nsp/bin/nsp check . && ./node_modules/snyk/cli/index.js test"
 	}
 }
